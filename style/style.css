@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.nav-color {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FD0D00;
+}
+
+.sobre {
+    position: absolute;
+    width: 808px;
+    height: 381px;
+    left: 224px;
+    top: 993px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+    color: #ABA194;
+}
+
+.botao-sobre {
+    background: #6B0F1A;
+    border-radius: 4px;
+}
