@@ -2,31 +2,51 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+main {
+    margin: 0 15px;
+}
+
+i {
+    color: #6B0F1A;
+}
+
+a {
+    text-decoration: none;
+}
+
 .nav-color {
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 39px;
     text-transform: uppercase;
-    color: #FD0D00;
+    color: #6B0F1A;
 }
 
 .sobre {
-    position: absolute;
-    width: 808px;
-    height: 381px;
-    left: 224px;
-    top: 993px;
+    background: url(/img/Background.png);
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 52px;
-    /* or 130% */
     color: #ABA194;
 }
 
 .botao-sobre {
     background: #6B0F1A;
     border-radius: 4px;
+}
+
+.contato {
+    background-color: #E5c1bd;
+    color: #251613;
+    text-align: center;
+}
+
+.icone_contato {
+    flex-direction: column;
+}
+
+.icone_contato a:hover {
+    background-color: #6B0F1A;
+    color: #E5c1bd
 }
