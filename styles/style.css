@@ -14,13 +14,27 @@ a {
     text-decoration: none;
 }
 
+.logo {
+    width: 40px;
+}
+
 .nav-color {
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 39px;
     text-transform: uppercase;
-    color: #6B0F1A;
+    background-color: #FEFEEE;
+    color: #8C1C13;
+    
+}
+
+
+.nav-itens:hover {
+    
+    color: #8C1C13;
+    
+  
 }
 
 .sobre {
