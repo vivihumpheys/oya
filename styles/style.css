@@ -15,13 +15,40 @@ h3 {
     margin: 20px 0 15px;
 }
 
+.logo {
+    width: 40px;
+}
+
 .nav-color {
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 39px;
     text-transform: uppercase;
-    color: #FEFEEE;
+    background-color: #FEFEEE;
+    color: #8C1C13;
+    
+}
+
+
+
+.nav-itens:hover {
+    
+    color: #8C1C13;
+    
+  
+}
+
+.navbar-nav {
+    
+    justify-content: end;
+    margin-right: 0 !important;
+    align-items: center;
+}
+
+.navbar-collapse {
+    justify-content: right !important;
+    
 }
 
 
@@ -91,7 +118,7 @@ h3 {
     background-color: #FAFAFA;
     padding: 15px;
     padding-left: 50px;
-
+}
 .servicos {
     background-color: #FEFEEE;
     color: #010301;
@@ -134,4 +161,14 @@ h5{
 .servicos_container {
     text-align: center;
     margin: 1.5rem;
+}
+.icone_contato a:hover {
+    background-color: #6B0F1A;
+    color: #E5c1bd
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        align-items: left !important;
+    }
 }
