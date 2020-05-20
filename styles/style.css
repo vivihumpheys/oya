@@ -2,22 +2,59 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+/* ÍCONES */
 i {
     color: #010301;
 }
 
+/* --- */
+
+/* LINKS */
 a {
     text-decoration: none !important;
 }
 
+/* --- */
+
+/* TITULOS */
 h3 {
     font-weight: 600;
     margin: 20px 0 15px;
 }
 
+h4 {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+/* -- */
+
+
+/* NAV */
 .logo {
     width: 40px;
 }
+
+/* nav {
+    position: fixed;
+    overflow:scroll;
+    /* Set the navbar to fixed position */
+    /* top: 0; */
+    /* Position the navbar at the top of the page */
+    /* width: 100%; */
+    /* Full width */
+/* } */ 
+
 
 .nav-color {
     font-style: normal;
@@ -25,22 +62,19 @@ h3 {
     font-size: 13px;
     line-height: 39px;
     text-transform: uppercase;
-    background-color: #FEFEEE;
-    color: #8C1C13;
-    
+    color: #FEFEEE;
+    background-color: #8C1C13;
+
+
 }
 
-
-
 .nav-itens:hover {
-    
-    color: #8C1C13;
-    
-  
+    opacity: 0.6;
+    color: #FEFEEE;
 }
 
 .navbar-nav {
-    
+
     justify-content: end;
     margin-right: 0 !important;
     align-items: center;
@@ -48,56 +82,114 @@ h3 {
 
 .navbar-collapse {
     justify-content: right !important;
-    
+
 }
 
+/* ---- */
 
+/* SOBRE */
 .sobre {
-    background: url(../img/images.jpg);
+    background: url('../img/bg(1).png');
+    width: 100%;
     font-family: Helvetica;
     font-style: normal;
-    font-weight: normal;
-    color: #fefeee;
-    width: 100%;
-    height: 670px;
-    background-size: 100% 100%;
+    font-weight: bold;
+    color: #8C1C13;
+    background-size: cover;
     text-align: flex-start;
-    
+    padding: 15px 30px;
 }
-.texto-sobre{
-    padding-top: 170px;
+
+/* .texto-sobre{
+    /* padding-top: 80px;
+    padding-left: 50px; */
+/* } */
+
+.div-botao {
+    display: flex;
+    justify-content: center;
 }
+
 
 .botao-sobre {
-    background: #CC5803;
+    font-weight: normal;
+    background: #8C1C13;
     border-radius: 8px;
-    border-color: #ABA194;
-    border-width: 15px;
-    color: #010301;
-    padding: 7px;
+    /* border-color: #ABA194; */
+    /* border-width: 15px; */
+    color: #FEFEEE;
+    padding: 12px;
+
 }
 
+.botao-sobre:hover {
+    /* color: #FEFEEE;
+    text-decoration: none;
+    background-color: #650e0a; */
+    opacity: 0.8;
+    color: #FEFEEE;
+}
+
+/* --- */
+
+
+/* CARROSSEL */
 .img_carousel {
     object-fit: cover;
     height: 500px;
     object-position: center top;
 }
 
+/* ---- */
 
 
-.botao-sobre:hover {
-    background-color: #8C1c13;
-    border: 2px solid #FEFEEE;
-    color: #FEFEEE;
-    text-decoration: none;
-    background-color: #650e0a;
+
+
+/* SERVIÇOS */
+.servicos {
+    background-color: #FEFEEE;
+    color: #010301;
+    padding: 15px 30px;
+}
+
+.servicos_container {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.img_container {
+    width: 5rem;
+    margin-bottom: 10px;
+    text-align: center;
 
 }
 
+/* --- */
+
+
+/* VIDEOS */
+.videos {
+    background: url('../img/bg(1).png');
+    width: 100%;
+    background-size: cover;
+    color: #010301;
+    padding: 15px 30px;
+}
+
+.videos-titulo {
+    text-align: center;
+    color: #8C1C13;
+    padding-bottom: 20px;
+}
+
+/* --- */
+
+/* CONTATO */
 .contato {
+
     background-color: #FCAB10;
     color: #010301;
-    text-align: left;
+    text-align: center;
     padding: 15px 30px;
 }
 
@@ -105,70 +197,52 @@ h3 {
     color: #010301;
 }
 
+/* 
 .ctt:hover {
-    background-color: #CC5803;
-    color: #FEFEEE;
-    font-weight: bold;
+    opacity: 0.6
+} */
+
+
+.icone_contato:hover {
+    opacity: 0.6;
+
 }
 
+/* --- */
 
-
-.instagram{
+/* INSTAGRAM */
+.instagram {
     color: #8C1C13;
     background-color: #FAFAFA;
     padding: 15px;
     padding-left: 50px;
 }
-.servicos {
-    background-color: #FEFEEE;
-    color: #010301;
-    padding: 15px 30px;
-}
 
-.videos {
-    background-color: #CC5803;
-    color: #010301;
-    padding: 15px 30px;
-}
+/* ---- */
 
 
+/* FOOTER */
+footer {
 
-
-.img_container {
-    width: 5rem;
-    margin-bottom: 10px;
-    text-align: center;
-    
+    background-color: #010301;
+    color: #FEFEEE;
+    padding: 5px;
 
 }
 
-h3{
-    text-align: center;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    font-weight: bold;
-    font-size: 1.4rem;
-
+.texto-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 
-h5{
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
-}
+/* ---- */
 
-.servicos_container {
-    text-align: center;
-    margin: 1.5rem;
-}
-.icone_contato a:hover {
-    background-color: #6B0F1A;
-    color: #E5c1bd
-}
 
+/* MEDIA QUERY - MOBILE FIRST */
 @media (max-width: 768px) {
     .navbar-nav {
-        align-items: left !important;
+        align-items: baseline;
+        /* text-align: left; */
     }
 }
