@@ -2,16 +2,17 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-main {
-    margin: 0 15px;
-}
-
 i {
-    color: #6B0F1A;
+    color: #010301;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+h3 {
+    font-weight: 600;
+    margin: 20px 0 15px;
 }
 
 .nav-color {
@@ -20,36 +21,73 @@ a {
     font-size: 15px;
     line-height: 39px;
     text-transform: uppercase;
-    color: #6B0F1A;
+    color: #FEFEEE;
 }
 
-.sobre {
-    background: url(/img/Background.png);
+.img_carousel {
+    object-fit: cover;
+    height: 500px;
+    object-position: center top;
+}
+
+
+/* .sobre {
+    background-color: #8C1C13;
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    color: #ABA194;
+    color: #FEFEEE;
+    padding: 25px 30px;
 }
 
 .botao-sobre {
-    background: #6B0F1A;
+    background: #FCAB10;
     border-radius: 4px;
+    padding: 15px 15px;
+    color: #FEFEEE;
+    border: 2px solid #FCAB10;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 30px 0 30px;
+} */
+
+.botao-sobre:hover {
+    background-color: #8C1c13;
+    border: 2px solid #FEFEEE;
+    color: #FEFEEE;
 }
 
 .contato {
-    background-color: #E5c1bd;
-    color: #251613;
-    text-align: center;
+    background-color: #FCAB10;
+    color: #010301;
+    text-align: left;
+    padding: 15px 30px;
 }
 
-.icone_contato {
-    flex-direction: column;
+.ctt {
+    color: #010301;
 }
 
-.icone_contato a:hover {
-    background-color: #6B0F1A;
-    color: #E5c1bd
+.ctt:hover {
+    background-color: #CC5803;
+    color: #FEFEEE;
+    font-weight: bold;
 }
+
+.servicos {
+    background-color: #FEFEEE;
+    color: #010301;
+    padding: 15px 30px;
+}
+
+.videos {
+    background-color: #CC5803;
+    color: #010301;
+    padding: 15px 30px;
+}
+
+
+
 
 .img_container {
     width: 5rem;
