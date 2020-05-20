@@ -2,20 +2,17 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-main {
-    margin: 0 15px;
-}
-
 i {
-    color: #6B0F1A;
+    color: #010301;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
-h3{
-    margin-top: 30px;
+h3 {
+    font-weight: 600;
+    margin: 20px 0 15px;
 }
 
 .nav-color {
@@ -24,8 +21,9 @@ h3{
     font-size: 15px;
     line-height: 39px;
     text-transform: uppercase;
-    color: #6B0F1A;
+    color: #FEFEEE;
 }
+
 
 .sobre {
     background: url(../img/images.jpg);
@@ -51,25 +49,39 @@ h3{
     color: #010301;
     padding: 7px;
 }
+
+.img_carousel {
+    object-fit: cover;
+    height: 500px;
+    object-position: center top;
+}
+
+
+
 .botao-sobre:hover {
+    background-color: #8C1c13;
+    border: 2px solid #FEFEEE;
     color: #FEFEEE;
     text-decoration: none;
     background-color: #650e0a;
+
 }
 
 .contato {
-    background-color: #E5c1bd;
-    color: #251613;
-    text-align: center;
+    background-color: #FCAB10;
+    color: #010301;
+    text-align: left;
+    padding: 15px 30px;
 }
 
-.icone_contato {
-    flex-direction: column;
+.ctt {
+    color: #010301;
 }
 
-.icone_contato a:hover {
-    background-color: #6B0F1A;
-    color: #E5c1bd
+.ctt:hover {
+    background-color: #CC5803;
+    color: #FEFEEE;
+    font-weight: bold;
 }
 
 
@@ -79,15 +91,47 @@ h3{
     background-color: #FAFAFA;
     padding: 15px;
     padding-left: 50px;
+
+.servicos {
+    background-color: #FEFEEE;
+    color: #010301;
+    padding: 15px 30px;
+}
+
+.videos {
+    background-color: #CC5803;
+    color: #010301;
+    padding: 15px 30px;
 }
 
 
 
-.p-instagram{
-    color: #FEFEEE;
+
+.img_container {
+    width: 5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
 }
-        
-footer{
-    color: #FEFEEE;
-    background-color: #010301;
+
+h3{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+}
+
+h5{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.servicos_container {
+    text-align: center;
+    margin: 1.5rem;
 }
