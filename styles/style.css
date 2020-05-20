@@ -29,17 +29,25 @@ a {
     
 }
 
-.div-nav-item {
-    display: flex;
-    width: 200px;
-    justify-content: space-between;
-}
+
 
 .nav-itens:hover {
     
     color: #8C1C13;
     
   
+}
+
+.navbar-nav {
+    
+    justify-content: end;
+    margin-right: 0 !important;
+    align-items: center;
+}
+
+.navbar-collapse {
+    justify-content: right !important;
+    
 }
 
 .sobre {
@@ -68,4 +76,10 @@ a {
 .icone_contato a:hover {
     background-color: #6B0F1A;
     color: #E5c1bd
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        align-items: left !important;
+    }
 }
