@@ -225,12 +225,14 @@ h5 {
 
 /* 
 .ctt:hover {
-    opacity: 0.6
+    opacity: 0.6;
+    color: #010301;
 } */
 
 
-.icone_contato:hover {
+.icone-contato:hover {
     opacity: 0.6;
+    color: #010301;
 
 }
 
