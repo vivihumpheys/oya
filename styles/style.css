@@ -1,5 +1,6 @@
 body {
     font-family: Helvetica, sans-serif;
+    padding-top: 80px ;
 }
 
 /* ÍCONES */
@@ -45,25 +46,28 @@ h5 {
     width: 40px;
 }
 
-/* nav {
+
+/* .teste-nav {
     position: fixed;
-    overflow:scroll;
-    /* Set the navbar to fixed position */
-    /* top: 0; */
-    /* Position the navbar at the top of the page */
-    /* width: 100%; */
-    /* Full width */
-/* } */ 
+    /* overflow: scroll; */
+    /* top: 0;
+    left:0;
+    width: 100%;
+    background-color: #8C1C13;
+} */ 
+
 
 
 .nav-color {
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
-    line-height: 39px;
+    /* line-height: 39px; */
     text-transform: uppercase;
     color: #FEFEEE;
     background-color: #8C1C13;
+    /* height: 60px; */
+    top: 0
 
 
 }
@@ -87,6 +91,28 @@ h5 {
 
 /* ---- */
 
+/* ÂNCORA */
+/* .anchor {
+    position: relative;
+  
+}
+
+.anchor a {
+    position: absolute;
+    top: -60px;
+
+}
+
+.anchor h4 {
+    position: absolute;
+    top: 0;
+} */
+
+/* #div-anchor {
+    height: 90px;
+} */
+
+
 /* SOBRE */
 .sobre {
     background: url('../img/bg(1).png');
@@ -97,7 +123,7 @@ h5 {
     color: #8C1C13;
     background-size: cover;
     text-align: flex-start;
-    padding: 15px 30px;
+    padding: 5px 30px;
 }
 
 /* .texto-sobre{
@@ -149,7 +175,7 @@ h5 {
 .servicos {
     background-color: #FEFEEE;
     color: #010301;
-    padding: 15px 30px;
+    padding: 5px 30px;
 }
 
 .servicos_container {
@@ -190,7 +216,7 @@ h5 {
     background-color: #FCAB10;
     color: #010301;
     text-align: center;
-    padding: 15px 30px;
+    padding: 5px 30px;
 }
 
 .ctt {
@@ -215,9 +241,14 @@ h5 {
     color: #8C1C13;
     background-color: #FAFAFA;
     padding: 15px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
+.img-insta {
+    width: 100%;
+    min-width: 220px;
+    max-width: 320px;
+}
 /* ---- */
 
 
